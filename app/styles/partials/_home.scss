@@ -1,10 +1,10 @@
 #home {
   position: relative;
   text-align: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   overflow: hidden;
-  background-color: #707C80;
+  background-color: black;
   -webkit-backface-visibility: hidden;
   -webkit-transform: scale(1);
   overflow: hidden;
@@ -22,5 +22,16 @@
   font-family: 'Raleway', sans-serif;
   h3 {
     color: white;
+  }
+}
+
+@media only screen and (max-width: 40em) { 
+  .header-text {
+    h1 {
+      color: white;
+    }
+    h3 {
+      color: red;
+    }
   }
 }
