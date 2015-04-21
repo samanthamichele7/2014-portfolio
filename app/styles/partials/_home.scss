@@ -28,7 +28,8 @@
   }
 }
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (max-width: 40em) {
+  background-color: white;
   .header-text {
     h1 {
       color: white;
@@ -93,10 +94,6 @@ body {
   background: black;
 }
 
-/**
- * Bouncing Arrow
- */
-
 .arrow {
   position: fixed;
   bottom: -50px;
@@ -133,7 +130,7 @@ body {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   a {
-    color: white;
+   color: white;
   }
 }
 
